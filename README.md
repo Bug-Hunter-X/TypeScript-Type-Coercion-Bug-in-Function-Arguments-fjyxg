@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in TypeScript related to type coercion.  The `printNumber` function is declared to accept a number, but the type checker doesn't prevent a string from being passed. This results in unexpected behavior at runtime.  The solution shows how to correctly type-check the input and handle potential type errors.
